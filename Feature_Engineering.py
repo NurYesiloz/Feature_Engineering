@@ -37,7 +37,7 @@ pd.set_option('display.width', 500)
 #################### Loading the Dataset ####################
 
 def load():
-    data = pd.read_csv(r"C:\Users\WIN\OneDrive\Masaüstü\DSMLBC\datasets\titanic.csv")
+    data = pd.read_csv("...titanic.csv")
     return data
 df = load()
 
